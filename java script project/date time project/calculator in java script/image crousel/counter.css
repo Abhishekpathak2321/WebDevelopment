@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding:0px;
+    background-color:#F7EF99 ;
+}
+
+.container{
+
+   
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.counter{
+    border: 5px solid #F78E69;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    box-shadow: 2px 4px 5px 1px;
+}
+
+#count{
+    font-size: 6rem;
+
+}
+
+button{
+    padding: 20px;
+    border: none;
+    background-color:#4CAF50;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover{
+        transform: scale(1.05);
+        transition: transform 0.3s ease; 
+}

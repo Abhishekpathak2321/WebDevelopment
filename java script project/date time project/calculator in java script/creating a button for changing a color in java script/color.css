@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);   
+}
+.container{
+justify-content: center;
+display: flex;
+align-items: center;
+height: 100vh;
+box-sizing: border-box;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    box-shadow: 0px 2px 3px 1px grey;
+    cursor: pointer;
+    background-color: aqua; 
+    font-weight: 600;
+  
+}
+
+button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 12px royalblue;
+}
